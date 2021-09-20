@@ -1,0 +1,144 @@
+2021-09-16 10:17:12 DEBUG-Using proactor: IocpProactor
+2021-09-16 10:17:16 DEBUG-Using proactor: IocpProactor
+2021-09-16 10:17:23 WARNING-Not Found: /favicon.ico
+2021-09-16 10:18:18 ERROR-Internal Server Error: /add
+Traceback (most recent call last):
+  File "E:\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\d.saiyeshwanth\project\djangoProject\form\views.py", line 27, in add
+    user.validate_details()
+  File "C:\Users\d.saiyeshwanth\project\djangoProject\form\validation.py", line 98, in validate_details
+    self.validatingSalary()
+  File "C:\Users\d.saiyeshwanth\project\djangoProject\form\validation.py", line 63, in validatingSalary
+    if self.salary>10000 and self.salary < 90000:
+TypeError: '>' not supported between instances of 'str' and 'int'
+2021-09-16 10:19:11 INFO-C:\Users\d.saiyeshwanth\project\djangoProject\form\validation.py changed, reloading.
+2021-09-16 10:19:11 DEBUG-Using proactor: IocpProactor
+2021-09-16 10:20:31 ERROR-Internal Server Error: /add
+Traceback (most recent call last):
+  File "E:\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\d.saiyeshwanth\project\djangoProject\form\views.py", line 27, in add
+    user.validate_details()
+  File "C:\Users\d.saiyeshwanth\project\djangoProject\form\validation.py", line 98, in validate_details
+    self.validatingSalary()
+  File "C:\Users\d.saiyeshwanth\project\djangoProject\form\validation.py", line 63, in validatingSalary
+    if int(self.salary)>10000 and int(self.salary) < 90000:
+ValueError: invalid literal for int() with base 10: 'B.Tech'
+2021-09-16 10:27:57 INFO-C:\Users\d.saiyeshwanth\project\djangoProject\form\views.py changed, reloading.
+2021-09-16 10:27:57 DEBUG-Using proactor: IocpProactor
+2021-09-16 10:28:38 ERROR-Internal Server Error: /add
+Traceback (most recent call last):
+  File "E:\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\d.saiyeshwanth\project\djangoProject\form\views.py", line 27, in add
+    user.validate_details()
+  File "C:\Users\d.saiyeshwanth\project\djangoProject\form\validation.py", line 100, in validate_details
+    self.result()
+TypeError: 'NoneType' object is not callable
+2021-09-16 10:30:12 INFO-C:\Users\d.saiyeshwanth\project\djangoProject\form\validation.py changed, reloading.
+2021-09-16 10:30:12 DEBUG-Using proactor: IocpProactor
+2021-09-16 10:30:19 DEBUG-Using proactor: IocpProactor
+2021-09-16 10:30:29 DEBUG-Using proactor: IocpProactor
+2021-09-16 10:30:34 DEBUG-Using proactor: IocpProactor
+2021-09-16 10:31:56 INFO-C:\Users\d.saiyeshwanth\project\djangoProject\form\validation.py changed, reloading.
+2021-09-16 10:31:56 DEBUG-Using proactor: IocpProactor
+2021-09-16 10:32:55 INFO-C:\Users\d.saiyeshwanth\project\djangoProject\form\views.py changed, reloading.
+2021-09-16 10:32:55 DEBUG-Using proactor: IocpProactor
+2021-09-16 10:34:50 INFO-C:\Users\d.saiyeshwanth\project\djangoProject\form\validation.py changed, reloading.
+2021-09-16 10:34:50 DEBUG-Using proactor: IocpProactor
+2021-09-16 10:38:03 INFO-C:\Users\d.saiyeshwanth\project\djangoProject\form\views.py changed, reloading.
+2021-09-16 10:38:03 DEBUG-Using proactor: IocpProactor
+2021-09-16 14:08:20 WARNING-Not Found: /favicon.ico
+2021-09-16 14:11:53 INFO-C:\Users\d.saiyeshwanth\project\djangoProject\form\views.py changed, reloading.
+2021-09-16 14:11:53 DEBUG-Using proactor: IocpProactor
+2021-09-16 16:57:04 INFO-C:\Users\d.saiyeshwanth\project\djangoProject\form\views.py changed, reloading.
+2021-09-16 16:57:04 DEBUG-Using proactor: IocpProactor
+2021-09-16 16:57:56 DEBUG-Using proactor: IocpProactor
+2021-09-16 17:46:53 DEBUG-Using proactor: IocpProactor
+2021-09-16 17:47:13 DEBUG-Using proactor: IocpProactor
+2021-09-16 17:47:17 DEBUG-Using proactor: IocpProactor
+2021-09-17 10:29:30 WARNING-Not Found: /favicon.ico
+2021-09-17 11:15:39 INFO-C:\Users\d.saiyeshwanth\project\djangoProject\form\models.py changed, reloading.
+2021-09-17 11:15:39 DEBUG-Using proactor: IocpProactor
+2021-09-17 11:17:16 DEBUG-Using proactor: IocpProactor
+2021-09-17 11:17:19 DEBUG-Using proactor: IocpProactor
+2021-09-17 11:17:25 DEBUG-Using proactor: IocpProactor
+2021-09-17 14:55:24 DEBUG-Using proactor: IocpProactor
+2021-09-17 15:08:17 INFO-C:\Users\d.saiyeshwanth\project\djangoProject\form\validation.py changed, reloading.
+2021-09-17 15:08:17 DEBUG-Using proactor: IocpProactor
+2021-09-17 15:08:41 INFO-C:\Users\d.saiyeshwanth\project\djangoProject\form\validation.py changed, reloading.
+2021-09-17 15:08:41 DEBUG-Using proactor: IocpProactor
+2021-09-17 17:35:25 WARNING-Not Found: /favicon.ico
+2021-09-17 17:37:46 DEBUG-Using proactor: IocpProactor
+2021-09-20 07:50:04 INFO-C:\Users\d.saiyeshwanth\project\djangoProject\form\urls.py changed, reloading.
+2021-09-20 07:50:04 DEBUG-Using proactor: IocpProactor
+2021-09-20 07:50:08 WARNING-Method Not Allowed (GET): /
+2021-09-20 07:50:08 WARNING-Method Not Allowed: /
+2021-09-20 07:50:11 WARNING-Method Not Allowed (GET): /
+2021-09-20 07:50:11 WARNING-Method Not Allowed: /
+2021-09-20 07:55:41 WARNING-Method Not Allowed (GET): /
+2021-09-20 07:55:41 WARNING-Method Not Allowed: /
+2021-09-20 07:56:28 INFO-C:\Users\d.saiyeshwanth\project\djangoProject\form\urls.py changed, reloading.
+2021-09-20 07:56:28 DEBUG-Using proactor: IocpProactor
+2021-09-20 07:57:36 INFO-C:\Users\d.saiyeshwanth\project\djangoProject\form\urls.py changed, reloading.
+2021-09-20 07:57:36 DEBUG-Using proactor: IocpProactor
+2021-09-20 07:57:40 WARNING-Method Not Allowed (GET): /
+2021-09-20 07:57:40 WARNING-Method Not Allowed: /
+2021-09-20 07:58:31 INFO-C:\Users\d.saiyeshwanth\project\djangoProject\form\views.py changed, reloading.
+2021-09-20 07:58:31 DEBUG-Using proactor: IocpProactor
+2021-09-20 07:58:33 ERROR-Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+2021-09-20 07:58:33 WARNING-Not Found: /favicon.ico
+2021-09-20 07:59:13 INFO-C:\Users\d.saiyeshwanth\project\djangoProject\form\views.py changed, reloading.
+2021-09-20 07:59:13 DEBUG-Using proactor: IocpProactor
+2021-09-20 08:00:07 WARNING-Not Found: /add
+2021-09-20 08:05:03 INFO-C:\Users\d.saiyeshwanth\project\djangoProject\form\urls.py changed, reloading.
+2021-09-20 08:05:03 DEBUG-Using proactor: IocpProactor
+2021-09-20 08:05:48 WARNING-Not Found: /add
+2021-09-20 08:06:30 INFO-C:\Users\d.saiyeshwanth\project\djangoProject\djangoProject\urls.py changed, reloading.
+2021-09-20 08:06:30 DEBUG-Using proactor: IocpProactor
+2021-09-20 08:07:10 WARNING-Not Found: /add
+2021-09-20 08:12:12 INFO-C:\Users\d.saiyeshwanth\project\djangoProject\form\views.py changed, reloading.
+2021-09-20 08:12:12 DEBUG-Using proactor: IocpProactor
+2021-09-20 08:12:15 DEBUG-Using proactor: IocpProactor
+2021-09-20 08:13:33 WARNING-Not Found: /add
+2021-09-20 08:15:24 DEBUG-Using proactor: IocpProactor
+2021-09-20 08:16:08 WARNING-Not Found: /get
+2021-09-20 08:16:45 DEBUG-Using proactor: IocpProactor
+2021-09-20 08:17:26 WARNING-Not Found: /post
+2021-09-20 08:18:12 DEBUG-Using proactor: IocpProactor
+2021-09-20 08:20:07 INFO-C:\Users\d.saiyeshwanth\project\djangoProject\form\views.py changed, reloading.
+2021-09-20 08:20:07 DEBUG-Using proactor: IocpProactor
+2021-09-20 08:20:10 WARNING-Not Found: /favicon.ico
+2021-09-20 08:21:49 INFO-C:\Users\d.saiyeshwanth\project\djangoProject\form\views.py changed, reloading.
+2021-09-20 08:21:49 DEBUG-Using proactor: IocpProactor
+2021-09-20 08:21:51 WARNING-Method Not Allowed (GET): /
+2021-09-20 08:21:51 WARNING-Method Not Allowed: /
+2021-09-20 08:21:53 WARNING-Method Not Allowed (GET): /
+2021-09-20 08:21:53 WARNING-Method Not Allowed: /
+2021-09-20 08:22:06 INFO-C:\Users\d.saiyeshwanth\project\djangoProject\form\views.py changed, reloading.
+2021-09-20 08:22:06 DEBUG-Using proactor: IocpProactor
+2021-09-20 10:45:29 WARNING-Not Found: /favicon.ico
+2021-09-20 16:41:51 DEBUG-Using proactor: IocpProactor
+2021-09-20 16:41:56 WARNING-Not Found: /favicon.ico
+2021-09-20 16:43:05 INFO-C:\Users\d.saiyeshwanth\project\djangoProject\form\views.py changed, reloading.
+2021-09-20 16:43:05 DEBUG-Using proactor: IocpProactor
+2021-09-20 20:03:50 WARNING-Not Found: /favicon.ico
+2021-09-20 20:05:00 INFO-C:\Users\d.saiyeshwanth\project\djangoProject\form\views.py changed, reloading.
+2021-09-20 20:05:00 DEBUG-Using proactor: IocpProactor
