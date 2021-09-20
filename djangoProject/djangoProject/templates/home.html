@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% extends 'basic.html' %}
+{% block content %}
+<p><h2>Hello {{name}}!!!</h2>
+
+<form  method="post" >
+    {% csrf_token %}
+    <div>
+        <label for="f1"><b>First Name</b></label>
+        <input type="text" name="f1" id="f1" required><br>
+        <label for="f2"><b>Last Name</b> </label>
+        <input type="text" name="f2" id="f2" required><br>
+        <label for="f3"><b>Date of Birth</b> </label>
+        <input type="date" name="f3" id="f3" required><br>
+        <label for="f4"><b>Gender</b></label>
+        <input type="text" name="f4" id="f4" required><br>
+        <label for="f5"><b>Nationality</b></label>
+        <input type="text" name="f5" id="f5" required><br>
+        <label for="f6"><b>State</b></label>
+        <input type="text" name="f6" id="f6" required><br>
+        <label for="f7"><b>Current city</b></label>
+        <input type="text" name="f7" id="f7" required><br>
+        <label for="f8"><b>Pin code</b></label>
+        <input type="text" name="f8" id="f8" required><br>
+        <label for="f9"><b>Qualification</b></label>
+        <input type="text" name="f9" id="f9" required><br>
+        <label for="f10"><b>salary</b></label>
+        <input type="text" name="f10" id="f10" required><br>
+        <label for="f11"><b>pan number</b></label>
+        <input type="text" name="f11" id="f11" required><br>
+    </div>
+    <button type="submit">Submit</button>
+</form>
+</p>
+{% endblock %}
+</body>
+</html>
